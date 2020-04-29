@@ -1,0 +1,14 @@
+.nav-links {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    justify-content: center;
+}
+
+li.nav-item {
+    padding: 5%;
+}
+
+.nav-link {
+    text-decoration: none;
+}
