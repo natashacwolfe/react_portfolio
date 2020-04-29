@@ -36,6 +36,7 @@ code {
 
 .text-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin: 2%;
   background-color: rgba(143,193,227, .75);

@@ -14,7 +14,14 @@ function About() {
                     <img className='about-img' src={Natasha} alt="Natasha Wolfe" />
                 </div>
                 <div className="text-container">
-                    <p>Front-end web developer with a background in cosmetology eager to use my expertise of color theory, design, and passion of creating to build elevated user experience and technology centered websites and applications. Driven by challenging goals and creative problem solving. Enthusiastically evolving my craft of coding.</p>
+                <p>I'm a full stack web developer living in the beautiful Pacific Northwest.
+                
+                Inspired by nature. When I am not coding, you can find me adventuring outside. </p>
+                <p>
+                From my past life as a hairstylist, I am eager to use my expertise of color theory, 
+                design, and passion of creating to build elevated user experience and technology centered websites and
+                applications. Driven by challenging goals and creative problem solving. Enthusiastically evolving my craft of coding.
+                </p>   
                 </div>
             </div>
         </div>
