@@ -1,17 +1,18 @@
 import React from 'react';
 import Natasha from '../../images/natasha.jpg';
-import './style.css'
+import { Link } from 'react-router-dom';
+import './style.css';
 
 function About() {
     console.log("hiii")
     return (
-        <div>
+        <div className='wrapper'>
             <div className="page-header">
                 <p className='page-title' id='about'> Hi, I'm Natasha Wolfe</p>
             </div>
             <div className="page-container">
                 <div className='.img-div'>
-                    <img className='about-img' src={Natasha} alt="Natasha Wolfe" />
+                <Link className="nav-link" to="/contact"><img title='Click to contact!'className='about-img grow' src={Natasha} alt="Natasha Wolfe" /></Link>
                 </div>
                 <div className="text-container">
                 <p>I'm a full stack web developer living in the beautiful Pacific Northwest.

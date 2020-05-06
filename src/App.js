@@ -1,25 +1,30 @@
-import React from 'react';
+import React, {  useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './pages/Home/Home';
-import About from './pages/About/About';
 import Projects from './pages/Projects/Projects';
 import Contact from './pages/Contact/Contact';
-import Wrapper from "./components/Wrapper";
+import About from './pages/About/About';
 import Navbar from "./components/Navbar";
 
+
 function App() {
+const [currentPage, setCurrentPage] = useState("home")
+
+function setPage(page) {
+  setCurrentPage(page);
+  console.log(page, currentPage)
+};
   return (
     <Router>
-      <div>
-        <Wrapper>
-        <Navbar />
+      <div className='main'>
+          <Navbar setPage={setPage} />
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/" >
               <Home />
             </Route>
             <Route exact path="/about">
-              <About />
-            </Route>
+            <About />
+          </Route>
             <Route exact path="/projects">
               <Projects />
             </Route>
@@ -27,7 +32,6 @@ function App() {
               <Contact />
             </Route>
           </Switch>
-        </Wrapper>
       </div>
     </Router>
   );
@@ -35,3 +39,5 @@ function App() {
 
 export default App;
 
+// 
+// 

@@ -1,0 +1,51 @@
+a {
+    margin-right: 5%;
+}
+.btn-row {
+    display: flex;
+    flex-direction: row;
+}
+.btn {
+    outline: none;
+    height: 2rem;
+    text-align: center;
+    width: 6rem;
+    border-radius: 40rem;
+    background: #fff;
+    border: 2px solid rgb(49,112,142);
+    color: rgb(49,112,142);
+    letter-spacing: 1px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+.btn:hover {
+    color:white;
+    background: rgb(49,112,142);
+}
+.gallery-card {
+    align-items: center;
+    flex-flow: column;
+    display: flex;
+    margin: 2%;
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    background-color: white;
+}
+#projects {
+    flex-flow: row wrap;
+}
+.project-title {
+    font-weight: bold;
+    color: rgb(49,112,142);
+}
+.tech-title {
+    font-size: 13px;
+    padding: 2% 0;
+}
+.tech-text {
+    font-size: 11px;
+    max-width: 200px;
+    padding: 4%;
+}
+

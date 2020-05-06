@@ -1,15 +1,20 @@
 .about {
-    display: flex;
-    justify-content: center;
-    height: -webkit-fill-available;
-    background: no-repeat;
-  }
-
-  .about-img {
-      height: 250px;
-  }
-
-  .about-me {
-    margin-top: 12%;
+  display: flex;
+  justify-content: center;
+  height: -webkit-fill-available;
+  background: no-repeat;
 }
 
+.about-img {
+  height: 250px;
+}
+
+.about-me {
+  margin-top: 12%;
+}
+
+@media only screen and (max-width: 767px) {
+  #about {
+    font-size: 50px;
+  }
+}

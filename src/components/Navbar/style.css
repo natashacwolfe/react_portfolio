@@ -5,10 +5,32 @@
     justify-content: center;
 }
 
-li.nav-item {
+.nav-item {
     padding: 5%;
+    justify-content: space-evenly;
 }
 
 .nav-link {
     text-decoration: none;
+    color: rgb(49,112,142);
+    transition: color 0.2s, background-color 0.2s;
+    position: relative;
 }
+
+.nav-link:hover, .nav-link:focus, .nav-link:active {
+    color: rgba(49,112,142, .5);
+}
+
+.nav-link::before {
+    transition: 300ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: rgb(49,112,142);
+    width: 0%;
+    bottom: -5px;
+  }
+  
+  .nav-link:hover::before {
+    width: 100%;
+  }
