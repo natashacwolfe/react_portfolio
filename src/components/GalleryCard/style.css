@@ -36,6 +36,7 @@ a {
     flex-flow: row wrap;
 }
 .project-title {
+    text-align: center;
     font-weight: bold;
     color: rgb(49,112,142);
 }
