@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1fe52ecd.chunk.css",
+    "main.js": "/static/js/main.e2d63e7d.chunk.js",
+    "main.js.map": "/static/js/main.e2d63e7d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.70301a4a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.70301a4a.js.map",
+    "static/js/2.cdd3e579.chunk.js": "/static/js/2.cdd3e579.chunk.js",
+    "static/js/2.cdd3e579.chunk.js.map": "/static/js/2.cdd3e579.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9abcc9e5dcea0f11afa8746e9e9d86e0.js": "/precache-manifest.9abcc9e5dcea0f11afa8746e9e9d86e0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1fe52ecd.chunk.css.map": "/static/css/main.1fe52ecd.chunk.css.map",
+    "static/js/2.cdd3e579.chunk.js.LICENSE.txt": "/static/js/2.cdd3e579.chunk.js.LICENSE.txt",
+    "static/media/PAR.png": "/static/media/PAR.338b3c38.png",
+    "static/media/eats.png": "/static/media/eats.a145fa21.png",
+    "static/media/home-text.png": "/static/media/home-text.0e5932f8.png",
+    "static/media/natasha.jpg": "/static/media/natasha.1093090a.jpg",
+    "static/media/weather.png": "/static/media/weather.1ef7f7d6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70301a4a.js",
+    "static/js/2.cdd3e579.chunk.js",
+    "static/css/main.1fe52ecd.chunk.css",
+    "static/js/main.e2d63e7d.chunk.js"
+  ]
+}
